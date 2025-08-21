@@ -10,6 +10,13 @@ Import installhooks.reg as trustedinstaller.
 
 Credits goto wiktorwiktor12
 
+>[!WARNING]
+>This version uses 1.0.7.
+>
+>Use AuthUX currently, much better.
+>
+>ill not put updates into this to.
+
 Also, for users who don't want to import installhooks.reg
 
 Type the commands at the bottom of the readme.md in a trustedinstaller cmd window.

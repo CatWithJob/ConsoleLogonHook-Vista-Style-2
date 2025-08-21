@@ -1,4 +1,15 @@
 # ConsoleLogonHook-Vista-Style-2
+
+>[!WARNING]
+>This version uses console logon hook 1.0.7.
+>
+>Use AuthUX currently, much better.
+>
+> I'll not put updates into this either.
+
+>[!WARNING]
+>This might ruin most login screens.
+
 Console logon hook, but it's Vista style.
 Also, if you use %100 or %125 DPI Scaling, the edition goes back to Windows Seven
 
@@ -10,16 +21,9 @@ Import installhooks.reg as trustedinstaller.
 
 Credits goto wiktorwiktor12
 
->[!WARNING]
->This version uses 1.0.7.
->
->Use AuthUX currently, much better.
->
->ill not put updates into this to.
-
 Also, for users who don't want to import installhooks.reg
 
-Type the commands at the bottom of the readme.md in a trustedinstaller cmd window.
+Type the commands at the bottom of the README.md in a trusted installer CMD window.
 
 ```cmd
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Internal.UI.Logon.Controller.ConsoleBlockedShutdownResolver /v DllPath /t REG_SZ /d %systemroot%\System32\ConsoleLogonHook.dll /f
@@ -30,3 +34,4 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\
 
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Internal.Shell.PlatformExtensions.ConsoleCredUX /v DllPath /t REG_SZ /d %systemroot%\System32\ConsoleLogonHook.dll /f
 ```
+Then rename windows.ui.logon.dll to something like windows.ui.logon.bak so logonui doesn't overlap.

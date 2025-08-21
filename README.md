@@ -9,6 +9,7 @@ Import installhooks.reg as trustedinstaller.
 3. Press CTRL-ALT-DEL and it should work, no reboots required.
 
 Credits goto wiktorwiktor12
+
 Also, for users who don't want to import installhooks.reg Type
 
 ```cmd

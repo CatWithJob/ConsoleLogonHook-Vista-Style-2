@@ -10,7 +10,9 @@ Import installhooks.reg as trustedinstaller.
 
 Credits goto wiktorwiktor12
 
-Also, for users who don't want to import installhooks.reg Type
+Also, for users who don't want to import installhooks.reg
+
+Type the commands at the bottom of the readme.md in a trustedinstaller cmd window.
 
 ```cmd
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Internal.UI.Logon.Controller.ConsoleBlockedShutdownResolver /v DllPath /t REG_SZ /d %systemroot%\System32\ConsoleLogonHook.dll /f

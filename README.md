@@ -1,5 +1,9 @@
 # ConsoleLogonHook-Vista-Style-2
 
+Silght warning, Bitmaps and images were replaced with Reshacker.
+
+Fork of ConsoleLogonHook
+
 >[!WARNING]
 >This version uses console logon hook 1.0.7.
 >

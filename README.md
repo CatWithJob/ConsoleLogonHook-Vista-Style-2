@@ -1,4 +1,5 @@
 # ConsoleLogonHook-Vista-Style-2
+7s editon hooter is still here, got confused on what file it is.
 
 Silght warning, Bitmaps and images were replaced with Reshacker.
 
